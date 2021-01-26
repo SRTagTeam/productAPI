@@ -1,0 +1,33 @@
+{
+  "name": "productapi",
+  "version": "1.0.0",
+  "description": "Product Api for shopping cart application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SRTagTeam/productApi.git"
+  },
+  "keywords": [
+    "productApi"
+  ],
+  "author": "SRRJ",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "morgan": "^1.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SRTagTeam/productApi/issues"
+  },
+  "homepage": "https://github.com/SRTagTeam/productApi#readme"
+}
