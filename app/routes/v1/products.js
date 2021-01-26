@@ -13,8 +13,8 @@ router.get('/:id', function (req, res) {
 });
 
 router.post('/', async function (req, res) {
-    const userObject = getModel(req, res);
-    await dataAccess.insert(userObject, res);
+    const productObject = getModel(req, res);
+    await dataAccess.insert(productObject, res);
 });
 
 router.put('/:id', function (req, res) {
